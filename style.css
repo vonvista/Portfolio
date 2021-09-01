@@ -49,6 +49,7 @@ img {
   background-size: 120%;
 
   height: 400px;
+  /* height: 30vw; */
   display: flex;
   z-index: 1;
 }
@@ -61,6 +62,7 @@ img {
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  height: 100%;
 
   -webkit-animation: slide-in-left 2s ease-out both;
 	animation: slide-in-left 2s ease-out both;
@@ -73,7 +75,13 @@ img {
 
 .section1Left h1 {
   margin: 0px;
+  white-space: nowrap;
+  /* font-size: 3.2vw; */
 }
+
+/* .section1Left p {
+  font-size: 1.4vw;
+} */
 
 .section1Left .socials{
   display: flex;
@@ -84,11 +92,12 @@ img {
 }
 
 .section1Left .socials a img {
-  height: 50px;
+  min-height: 30px;
+  max-height: 50px;
   margin: 3px;
   -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: rotate-in-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  
+  /* height: 4vw; */
 }
 
 .section1Left .socials :nth-child(1) > { animation-delay: 2s; }
@@ -122,7 +131,8 @@ img {
   background-position: center;
   background-size: 60px;
   height: 5000px;
-  padding: 25px 100px 25px;
+  /* padding: 25px 100px 25px; */
+  padding: 2.5vw 10vw 2.5vw
 }
 
 .projectParent {
@@ -145,8 +155,8 @@ img {
   align-self: flex-start;
 
   animation-direction: alternate ;
-  
-  width: 40%;
+  /* width: 60vh; */
+  width: 450px;
 }
 
 .projectContainer h2 {
@@ -213,7 +223,12 @@ img {
 	
 }
 
-
+/* 922 */
+@media only screen and (max-width: 922px) {
+  .section1Right {
+    display: none;
+  }
+}
 
 
 @font-face {
