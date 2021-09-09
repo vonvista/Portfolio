@@ -91,6 +91,12 @@ img {
   
 }
 
+.section1Left #logo {
+  min-height: 40px;
+  max-height: 70px;
+  margin: 3px;
+}
+
 .section1Left .socials a img {
   min-height: 30px;
   max-height: 50px;
@@ -167,6 +173,13 @@ img {
   color:rgb(238, 203, 4);
   font-size: 14px;
   margin-bottom: 20px;
+}
+
+.projectContainer .otherStatus {
+  color:rgb(238, 203, 4);
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .projectBr {
